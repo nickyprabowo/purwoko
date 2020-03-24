@@ -1,7 +1,9 @@
 const Index = () => {
   return (
-    <p>hahah purwanto</p>
-    <p>purwanto nikah sama sakira</p>
+    <div>
+      <p>hahah purwanto</p>
+      <p>purwanto nikah sama sakira</p>
+    </div>
   )
 }
 
