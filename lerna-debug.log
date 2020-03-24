@@ -1,0 +1,11 @@
+0 silly argv { _: [ 'add' ],
+0 silly argv   scope: '@intools/main',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0':
+0 silly argv    'C:\\Users\\Nicky\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: '@intools/purwoko' }
+1 notice cli v3.20.2
+2 verbose rootPath D:\projects\purwoko
+3 error Error: 404 Not Found - GET https://verdaccio.warungpintar.co/@intools%2fpurwoko - no such package available
+3 error     at res.buffer.catch.then.body (C:\Users\Nicky\AppData\Local\Yarn\Data\global\node_modules\@evocateur\npm-registry-fetch\check-response.js:104:15)

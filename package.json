@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "npmClient": "yarn",
+  "version": "independent",
+  "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "start": "yarn workspace @intools/main run dev",
+    "build": "lerna run --scope=@intools/main build"
+  }
+}
